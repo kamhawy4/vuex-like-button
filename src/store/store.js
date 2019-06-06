@@ -6,6 +6,7 @@ import mutations from "./mutations"
 import actions   from "./actions"
 
 Vue.use(Vuex);
+
 const store = new Vuex.Store({
   state:{
         likes: 5,
